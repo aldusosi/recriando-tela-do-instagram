@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size:14px;
+}
+
+a{
+    color:#0095f6;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display:flex;
+    width:60%;
+    height:100vh;
+}
+.phone-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phone-container img {
+    height: 50rem;
+}
+
+.logar-container{
+    display: flex;
+    align-items: center;
+    padding:18px;
+    gap:14px;
+    justify-content: center; 
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.foto-perfil{
+    width:84px;
+    border-radius:50%;
+}
+
+.button-blue{
+    padding:8px;
+    color:white;
+    background-color: #0095f6;
+    border-radius:4px;
+}
+
+.continue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    gap:14px;
+}
+
+.inscrever{
+    padding:18px;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.baixar-app{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    text-align:center;
+    gap:14px;
+}
+.baixar-app img{
+    width:140px;
+    height:42px;
+}
